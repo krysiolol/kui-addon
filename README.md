@@ -94,4 +94,4 @@ To update profile data (e.g. new CDM layout adjustments):
 
 ## License
 
-MIT © 2026 Alberto
+MIT © 2026 Krysio
