@@ -1,0 +1,11 @@
+*.blp
+*.dll
+*.exe
+*.zip
+*.rar
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.DS_Store?

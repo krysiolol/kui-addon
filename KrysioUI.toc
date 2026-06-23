@@ -1,0 +1,47 @@
+## Interface: 120000, 120001, 120005, 120007
+## Title: |cffa626e6KrysioUI|r
+## Notes: One-click installer for my complete UI setup (EllesmereUI, BigWigs, Edit Mode, CDM, and more)
+## Author: Krysio
+## Version: 1.0.0
+## SavedVariables: KrysioUIDB
+## IconTexture: Interface\AddOns\KrysioUI\media\icon.png
+## X-Category: UI Pack Installers
+
+# Libraries (embedded)
+Libs\Init.xml
+
+# Core
+Core\Init.lua
+Core\Locale.lua
+Core\Version.lua
+Core\ModuleRegistry.lua
+Core\ProfileManager.lua
+
+# Installer UI (before commands/minimap that reference them)
+Core\Installer\UI.lua
+Core\Installer\Steps.lua
+
+# User-facing UI
+Core\Minimap.lua
+Core\SlashCommands.lua
+Core\Changelog.lua
+
+# Localization (MUST come before Modules so L() resolves correctly)
+Locales\enUS.lua
+Locales\esES.lua
+Locales\esMX.lua
+
+# Modules
+Modules\ModuleRegistry.lua
+Modules\EllesmereUI.lua
+Modules\BigWigs.lua
+Modules\EditMode.lua
+Modules\CooldownManager.lua
+Modules\Template.lua
+
+# Data (profile strings - developer edits these)
+Data\EllesmereUI.lua
+Data\BigWigs.lua
+Data\EditMode.lua
+Data\CooldownManager.lua
+Data\VersionManifest.lua

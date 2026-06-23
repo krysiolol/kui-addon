@@ -1,0 +1,13 @@
+package-as: KrysioUI
+license-output: LICENSE.txt
+enable-nolib-creation: no
+
+ignore:
+  - .git
+  - .github
+  - .gitignore
+  - .pkgmeta
+
+manual-changelog:
+  filename: CHANGELOG.txt
+  mark-type: markdown

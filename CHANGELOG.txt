@@ -1,0 +1,11 @@
+# Changelog
+
+## 1.0.0 — Initial Release
+
+- Full installer wizard with 4 steps (Welcome, Module Selection, Import, Finish)
+- Module system: EllesmereUI, BigWigs, Cooldown Manager, Edit Mode
+- Button-based CDM spec selection with per-spec import
+- Resolution auto-detection (1440p / 1080p)
+- Localization: English + Spanish
+- Dark purple theme
+- Changelog viewer in-game
